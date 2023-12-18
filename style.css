@@ -1,0 +1,144 @@
+body{
+    background-image: url('img/bg-pattern-top-desktop.svg'), url('img/bg-pattern-bottom-desktop.svg');
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+  div.mycontainer {
+    margin-top: 50px;
+    width:100%;
+    overflow:auto;
+  }
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+  
+  .mycontainer img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 59px;
+    margin-top: 16px 
+  }
+  
+  .mycontainer span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .menu {
+    float: left;
+    width: 44%;
+    padding: 0px 156px;
+    
+  }
+
+  #star1{
+    width: 33.3%;
+  
+  }
+  #star2{
+    width: 33.3%;
+    margin-left: 36px;
+  }
+  #star3{
+    width: 33.3%;
+    margin-left: 70px;
+  }
+
+  #user1{
+    width: 25.3%;
+    margin-left: 120px;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+  }
+
+  #user2{
+    width: 25.3%;
+    margin-left: 50px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-top: 26px;
+  } 
+
+  #user3{
+    width: 25.3%;
+    margin-left: 64px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 45px;
+  } 
+
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color:hsl(300, 24%, 96%);
+    float: left;
+    width: 50%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    border-radius: 14px;
+  }
+  
+
+    @media only screen and (max-width: 375px) {
+        body {
+            background-image: url('img/bg-pattern-top-mobile.svg'), url('img/bg-pattern-bottom-mobile.svg');
+        }
+     
+        .mycontainer div {
+            margin-bottom: 20px; /* Add some space between divs on mobile */
+        }
+
+        h3{
+            font-size: 20px;
+            margin: 0 -115px;
+            
+        }
+        .menu > p{
+            margin: 0px -119px;
+            font-size: 12px;
+        }
+        .right{
+            display: block;
+        }
+        .right span{
+            display: block;
+            margin: 0px -38px
+        }
+        #star1, #star2, #star3{
+            width: 91%;
+            margin: 6px 10px;
+            padding: 0px 89px
+        
+        }
+        
+        #user1, #user2, #user3{
+            width: 94%;
+            margin: 6px 10px;
+            border-radius: 5px 
+        
+        }
+        
+    }
+
+
+
+    
+    
+
+
+  
+  
+
+  
