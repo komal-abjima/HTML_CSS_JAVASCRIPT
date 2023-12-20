@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>My CAREER GUIDUIC PROJECT</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="img/cg-logo.png" alt=""></a>
+        <a href="index.html" class="active">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#events">Events</a>
+
+
+        <a href="#sign in" class="rightnav">Sign In</a>
+        <a href="#myprofile" class="rightnav">My Profile</a>
+
+    </nav>
+
+    <div class="mycontainer">
+
+
+
+        <div class="menu">
+            <div class="menuitem">Students</div>
+            <div class="menuitem">Professionals</div>
+            <div class="menuitem">Study Abroad </div>
+            <div class="menuitem">College</div>
+            <div class="menuitem">Psychometric Tests</div>
+            <div class="menuitem">Class 10</div>
+            <div class="menuitem">Class 11 - 12 </div>
+            <div class="menuitem">Events</div>
+            <div class="menuitem">Psychometric Tests</div>
+            <div class="menuitem">Career Counsellors</div>
+            <div class="menuitem">Careers</div>
+        </div>
+
+        <div class="mid">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="img/pic3.jpg" class="slideimage">
+                    
+                  
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="img/pic4.jpg"class="slideimage">
+                   
+                </div>
+
+            </div>
+            <br>
+
+           
+
+        </div>
+
+        <div class="right">
+            <img src="img/pic7.jpg" alt="" width="100%">
+            <h3>CAREER COUNSELLING PROGRAM</h3>
+            <p>As we know that, a career will be one of the most significant and humongous parts of your life, thus we
+                need to ensure that we pick the right professional way for ourselves. Nowadays no one gets a kick out of
+                the chance to be compelled to work in a profession they despise. It frequently requires a long time to
+                become familiar with a profession, so changing a vocation can be a long and overwhelming
+                <a href="#">
+                    <br>Continue Reading....</a>
+            </p>
+        </div>
+
+
+    </div>
+ 
+
+    <!-- card container -->
+    <h1 style="    text-align: center;
+    color: rebeccapurple;
+    font-size: xxx-large;">TESTIMONIALS</h1>
+    <div class="cardContainer">
+    <div class="card">
+        <img src="img/image-anne.jpg" alt="John" style="width:100%">
+        <h1>John Doe</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Contact</button></p>
+      </div>
+
+      <div class="card">
+        <img src="img/image-colton.jpg" alt="John" style="width:100%">
+        <h1>Colton Patrick</h1>
+        <p class="title">Director</p>
+        <p>Js University</p>
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Contact</button></p>
+      </div>
+
+      <div class="card">
+        <img src="img/image-irene.jpg" alt="John" style="width:100%">
+        <h1>Irene Jack</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Contact</button></p>
+      </div>
+
+
+
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+</body>
+
+</html>
