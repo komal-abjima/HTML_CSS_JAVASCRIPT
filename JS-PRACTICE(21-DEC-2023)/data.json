@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "email": "Ks@gmail.com",
+        "firstname": "Komal",
+        "lastname": "Sharma",
+        "dateofbirth": "1999-01-03",
+        "startdate": "2020-02-02",
+        "isActive": true
+
+    },
+    {"id": 1,
+    "email": "ss@gmail.com",
+    "firstname": "Shivam",
+    "lastname": "Sharma",
+    "dateofbirth": "2002-08-08",
+    "startdate": "2021-02-12",
+    "isActive": true
+},
+{
+    "id": 2,
+        "email": "dt@gmail.com",
+        "firstname": "David",
+        "lastname": "Tucker",
+        "dateofbirth": "1980-11-13",
+        "startdate": "2022-12-12",
+        "isActive": false
+}
+]
