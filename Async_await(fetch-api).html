@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST API</title>
+</head>
+
+<body>
+   
+  <button id="button">Get Data</button>
+    <div id="results">
+
+    </div>
+</body>
+<script>
+    var button = document.getElementById('button');
+
+    const getData = async () =>{
+        try{
+        const res = await fetch('https://my-json-server.typicode.com/dmitrijt9/book-api-mock/books')
+        const data = await res.json();
+
+        if(!res.ok){
+            console.log('Problem..');
+            return;
+        }
+        
+        console.log(data[2].title);
+        }
+        catch(error){
+            console.log(error)
+        }
+    }
+
+
+        
+    //     .then(res =>{
+    //         if(!res.ok){
+    //             console.log('Problem..');
+    //             return;
+    //         }
+    //         return res.json;
+    //     })
+    //     .then(data =>{
+    //         console.log(data.title);
+    //     })
+    //     .catch(error =>{
+    //         console.log(error);
+    //     })
+    //}
+
+    button.addEventListener('click', getData);
+</script>
+
+</html>
